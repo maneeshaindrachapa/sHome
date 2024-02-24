@@ -8,20 +8,10 @@ Before you begin, make sure you have the following installed:
 - [Ionic CLI](https://ionicframework.com/docs/cli)
 
 ## Installation
-Install Ionic CLI globally
+Go inside the cloned code and run the below command to install all the packages
 ```
-$ npm install -g ionic
+$ npm install
 ```
-Create a new Ionic project named "sHome"
-```
-$ ionic start sHome
-```
-Install the Bluetooth Cordova plugin
-```
-$ ionic cordova plugin add cordova-plugin-bluetooth-serial
-$ npm install --save @ionic-native/bluetooth-serial
-```
-Verify the Cordova plugin installation in the package.json file.
 
 ## Testing
 To test the app, use the Ionic live server with the following command
